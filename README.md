@@ -1,1 +1,1 @@
-# odin_the_traver-Odins
+# Landing page assignment for online class
