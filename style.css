@@ -49,14 +49,15 @@ li a {
    font-size: 18px;
    color: #E5E7EB; 
    text-decoration: none;
+   margin: 0;
    
 }
 
-a:hover {
+ li:hover, a:hover {
     background-color: #1772da;
-    padding: 10px;
-    margin: 0 auto;
-    width: 100%;
+    margin: 0;
+    padding: auto;
+    width: auto;
 
 }
 
@@ -94,8 +95,8 @@ margin-bottom: 30px;
 .transbox {
   margin: 30px;
   background-color: #ecfbfe;
-  border: 1px solid black;
-  opacity: 0.5;
+  border: 3px groove black;
+  opacity: 0.4;
   
 }
 
@@ -105,7 +106,43 @@ margin-bottom: 30px;
   color: #000000;
 }
 
+/* main container*/
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
 
+/* destination, left and right container */
+.destination-container{
+    display: flex;
+    min-width: 100vh;
+    border: 1px solid black; /* debbuging border */
+
+}
+
+.left-container {
+    flex-grow: 1;
+    min-width: none;
+    max-width: 50%;
+    height: 200px;
+    border: 1px solid grey;
+
+}
+
+.right-container {
+    flex-grow: 1;
+    min-width: none;
+    max-width: 50%;
+    height: 200px;
+    border: 1px solid grey;
+    
+}
+
+/*image container and image rules */
+
+.img-container {
+
+}
 
 /* button and input styling*/
 button{
@@ -113,13 +150,12 @@ button{
     background-color: #1c87c9;
     color: #fff;
     text-align:center;
-    
-    padding: 15px;
+     padding: 15px;
     margin: 10px;
-
     border-radius:5px
 }
 
+/* form rules*/
 
 /*footer*/
 footer{
