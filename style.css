@@ -8,6 +8,7 @@ body {
     padding: 0;
     margin: 5px;
     background-color: #E5E7EB;
+   
 }
 
 h1,
@@ -140,10 +141,12 @@ p.header-para-container {
     min-width: none;
     max-width: 46%;
     height: 400px;
-    border: 2px groove rgb(206, 204, 204);
+    border: 2px solid rgb(200, 194, 194);
     border-radius: 25px;
     margin: 5px auto;
-    padding: 8px;
+    padding: 16px;
+    color: #444;
+    box-shadow: 2px 3px #999;
 
 }
 
@@ -215,6 +218,7 @@ option {
     background-color: #444;
     color: #E5E7EB;
     height: 300px;
+    margin-top: 10px;
 }
 
 .signup-message {
