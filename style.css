@@ -161,7 +161,7 @@ p.header-para-container {
 }
 
 /* button and input styling*/
-button {
+.button {
     border: none;
     background-color: #1c87c9;
     color: #fff;
@@ -169,6 +169,13 @@ button {
     padding: 15px;
     margin: 10px;
     border-radius: 5px
+}
+.button:hover {background-color: #259af3}
+
+.button:active {
+  background-color: #2ab7ef;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* form rules*/
