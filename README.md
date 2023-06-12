@@ -13,4 +13,4 @@ Many of the elements on this page are very similar to things you saw in our flex
 Do not worry about making your project look nice on a mobile device. We’ll learn that later.
 When you finish, don’t forget to push it up to GitHub!
 
-# royalty free and domain free images from pixabay (https://pixabay.com)
+# royalty free and domain free images from pixabay (https://pixabay.com),Vecteezy (https://www.vecteezy.com/free-photos) and Pexes (https://www.pexels.com)
