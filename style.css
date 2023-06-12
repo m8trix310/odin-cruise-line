@@ -126,7 +126,9 @@ p.header-para-container {
 /* destination, left and right container */
 .destination-container {
     display: flex;
-    min-width: 100vh;
+    flex-wrap: wrap;
+   flex-basis: 100%;
+
 
 
 }
