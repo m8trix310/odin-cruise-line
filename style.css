@@ -8,7 +8,7 @@ body {
     padding: 0;
     margin: 5px;
     background-color: #E5E7EB;
-   
+
 }
 
 h1,
@@ -94,7 +94,7 @@ a:hover {
 
 .header-para-container {
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 350px;
 
 
 }
@@ -108,6 +108,7 @@ p.header-para-container {
     background-color: #ecfbfe;
     border: 3px groove black;
     opacity: 0.4;
+    transition: 2s;
 
 }
 
@@ -127,7 +128,7 @@ p.header-para-container {
 .destination-container {
     display: flex;
     flex-wrap: wrap;
-   flex-basis: 100%;
+    flex-basis: 100%;
 
 
 
@@ -170,12 +171,15 @@ p.header-para-container {
     margin: 10px;
     border-radius: 5px
 }
-.button:hover {background-color: #259af3}
+
+.button:hover {
+    background-color: #259af3
+}
 
 .button:active {
-  background-color: #2ab7ef;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+    background-color: #2ab7ef;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 /* form rules*/
@@ -246,4 +250,50 @@ footer {
     margin-top: auto;
     text-align: center;
     color: #ecfbfe;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .head-info {
+        display: flex;
+        flex-direction: column;
+        background-image: url("./img/cruise-ship.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .header-para-container {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto 0;
+
+    }
+
+    p.header-para-container {
+        margin-bottom: 10px;
+        
+    }
+
+    .transbox {
+        transition: 2s;
+       transform: translate(-10px, 90px);
+        position: absolute;
+        bottom: 0;
+        background-color: #ecfbfe;
+        border: 3px groove black;
+        opacity: 0.8;
+    }
+
+
 }
